@@ -1,0 +1,22 @@
+{
+  "name": "JP-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "add-superAdmin": "node scripts/add-superAdmin.js",
+    "add-roles": "node scripts/add-roles.js"
+  },
+  "keywords": [
+    "mean",
+    "angular6"
+  ],
+  "author": "JP-node",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  }
+}
